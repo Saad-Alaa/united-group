@@ -1,0 +1,322 @@
+/*
+Xs Screen 
+
+@media only screen and (max-width: 320px) {
+    .news .card .views span,
+    .news .card .watch span {
+        font-size: .9em;
+    }
+    .sec-detail .article .work {
+        font-size: .9em;
+    }
+    .companies .card .company-img,
+    .companies .card .company-img2 {
+        width: 80%;
+        height: 6em;
+    }
+    .single-gallery .slick-prev {
+        left: -5%;
+        top: 51%;
+    }
+    .single-gallery .slick-next {
+        right: -21%;
+    }
+    .slick-arrow {
+        z-index: 9999;
+    }
+    .slick-prev {
+        left: 25px;
+    }
+    .slick-next {
+        right: -15%;
+    }
+}
+*/
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .sectore .card .img1,
+    .sectore .card .img2,
+    .sectore .card .img3,
+    .sectore .card .img4 {
+        height: 22em;
+        background-size: contain;
+    }
+    /* overwrite on overlay*/
+    .overlay .over-img {
+        height: 15em;
+    }
+    .overlay .content {
+        padding-right: 0;
+    }
+    .overlay .content h3,
+    .overlay .content h2 {
+        font-size: 1.5em;
+    }
+    /* overwrite on about-us*/
+    .about-us .about-img {
+        position: sticky;
+    }
+    .about-us .content h3,
+    .sectore .head h3,
+    .news .head h3,
+    .news .head h5,
+    .clients .head h3,
+    .new-detail .article h4 {
+        font-size: 1.5em
+    }
+    .slick-arrow {
+        z-index: 9999;
+    }
+    .slick-prev {
+        left: 8%;
+    }
+    .slick-next {
+        right: -6%;
+    }
+    .sectore .item .card {
+        width: 80%;
+        margin-right: 2em;
+    }
+    .news .card .card-img {
+        background-size: cover;
+    }
+    .news .watch {
+        text-align: right;
+        padding-top: 1em;
+    }
+    .news .card .card-img2,
+    .news .card .card-img3 {
+        background-size: contain;
+        background-position: center;
+        height: 12em;
+    }
+    .news .card-group .pt {
+        padding-top: 0em;
+        padding-bottom: 1em;
+    }
+    .clients .gallery-item {
+        width: 80% !important;
+    }
+    .clients .slick-prev {
+        top: 51%;
+        left: 9%;
+    }
+    .clients .slick-initialized .slick-slide {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    /*    -------------------------------------------------------------------*/
+    /* overwrite on about*/
+    .about .about-img,
+    .about-art .about-img,
+    .about-art .detail-img {
+        position: sticky;
+    }
+    .header .detail .content h3,
+    .boss .article h4,
+    .message .article h4 {
+        font-size: 1.5em;
+    }
+    .service .card .card-img1,
+    .service .card .card-img2,
+    .service .card .card-img3,
+    .service .card .card-img4,
+    .new-detail .article-img,
+    .new-detail .project-img {
+        background-size: cover;
+        background-position: center;
+        height: 12em;
+    }
+    .companies .card .company-img,
+    .companies .card .company-img2 {
+        width: 80%;
+        height: 7em;
+    }
+    .single-gallery .slick-prev {
+        left: -4%;
+        top: 51%;
+    }
+    .single-gallery .slick-next {
+        right: -15%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sectore .card .card-body {
+        height: 10em;
+    }
+    .sectore .card .card-title {
+        font-size: 1em;
+    }
+    .sectore .card .card-text {
+        font-size: 14px;
+    }
+    .sectore .card .img1 {
+        background-size: 20em;
+        background-position: top;
+    }
+    /* overwrite on overlay*/
+    .overlay .over-img {
+        height: 20em;
+    }
+    .overlay .content h3,
+    .overlay .content h2 {
+        font-size: 2em;
+    }
+    .overlay .content .btn-warning {
+        margin-top: 1em;
+    }
+    /* overwrite on about-us*/
+    .about .about-img,
+    .about-art .about-img {
+        position: sticky;
+    }
+    .slick-next {
+        right: -10%;
+    }
+    .slick-prev {
+        left: -1%;
+    }
+    .news .card .card-img {
+        background-size: cover;
+    }
+    .news .card .card-img2,
+    .news .card .card-img3 {
+        background-size: contain;
+        background-position: center;
+        height: 15em;
+    }
+    .clients .gallery-item {
+        width: 80% !important;
+    }
+    .clients .slick-prev {
+        left: 4%;
+    }
+    .clients .slick-next {
+        right: -3%;
+    }
+    /*    ------------------------------------------------*/
+    /* overwrite on about-us*/
+    .about .about-img,
+    .about-art .about-img,
+    .about-art .detail-img {
+        position: sticky;
+    }
+    .new-detail .article-img,
+    .new-detail .project-img {
+        height: 15em;
+    }
+}
+
+/*    // Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sectore .card .card-body {
+        height: 10em;
+    }
+    .sectore .card .card-title {
+        font-size: 1em;
+    }
+    .sectore .card .card-text {
+        font-size: 14px;
+    }
+    .sectore .card .img1 {
+        background-image: url(../photos/img1.jpg);
+        background-size: 20em;
+        background-position: top;
+    }
+    .slick-prev {
+        left: 0%;
+        top: 51%;
+    }
+    .news .card .card-img {
+        background-size: cover;
+    }
+    .clients .slick-prev {
+        left: 4%;
+    }
+    .clients .slick-next {
+        right: -3%;
+    }
+    .clients .gallery-item {
+        width: 80% !important;
+    }
+    .clients .slick-initialized .slick-slide {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    /*    ------------------------------------------------*/
+    /* overwrite on about-us*/
+    .about .about-img,
+    .about-art .about-img,
+    .about-art .detail-img {
+        position: sticky;
+    }
+    .new-detail .article-img,
+    .new-detail .project-img {
+        height: 20em;
+    }
+    .single-gallery .slick-next {
+        right: -12%;
+    }
+    .single-gallery .slick-prev {
+        left: -7%;
+        top: 51%;
+    }
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: .7em;
+    }
+    .sectore .card .card-body {
+        height: 10em;
+    }
+    .sectore .card .card-title {
+        font-size: 1em;
+    }
+    .sectore .card .card-text {
+        font-size: 14px;
+    }
+    .slick-next {
+        right: -45px;
+    }
+    .slick-prev {
+        left: 1%;
+        top: 51%;
+    }
+    .clients .gallery-item {
+        width: 80% !important;
+    }
+    .clients .slick-prev {
+        left: 4%;
+        top: 51%;
+    }
+    .clients .slick-next {
+        right: -2%;
+    }
+    footer .input-group {
+        width: 14em;
+    }
+    [class^="flaticon-"]:before,
+    [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after,
+    [class*=" flaticon-"]:after {
+        margin-right: .1em;
+        margin-left: 0;
+    }
+    .single-gallery .slick-next {
+        right: 1%;
+    }
+    .single-gallery .slick-prev {
+        left: 4%;
+        top: 51%;
+    }
+}
